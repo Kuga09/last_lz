@@ -4,7 +4,7 @@
 # Функция для вычисления
 def archimed(m,v):
     f_mg = float(m)*9.81
-    f_arch = float(v)*9.81
+    f_arch = 1000*float(v)*9.81
     if f_arch > f_mg:
         return 1
     elif f_arch < f_mg:
